@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Webpage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!---
+    creates navbar at top of page
+    -->
+    <header>
+        <nav>
+            <img class="logo" src="./images/logo.png" alt="logo.png">
+            <ul>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="#">Sign Up</a>
+                </li>
+                <li class="Search">
+                    <i>Search</i>
+                </li>
+                <li class="hamburger">
+                    <a href="#">
+                        <div class="bar">
+                            <!---
+                            this would beed to be populated with a dropdown list
+                            -->
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="vingnette"></div>
+        <!---
+        images contain custom variables for use in js file
+        -->
+        <img src="./images/background.png" alt="" data-speedX="0.3" data-sppedY="0.3" class="parallax bg-img" data-speedZ="0" data-speedRotate="0">
+        <img src="./images/fog_7.png" alt="" class="parallax fog-7" data-speedX="0.27" data-sppedY="0.315" data-speedZ="0" data-speedRotate="0">
+        <img src="./images/mountain_10.png" alt="" class="parallax mountain-10" data-speedX="0.195" data-sppedY="0.32" data-speedZ="0" data-speedRotate="0">
+        <img src="./images/fog_6.png" alt="" class="parallax fog-6" data-speedX="0.25" data-sppedY="0.295" data-speedZ="0" data-speedRotate="0">
+        <img src="./images/mountain_9.png" alt="" class="parallax mountain-9" data-speedX="0.125" data-sppedY="0.28" data-speedZ="0.15" data-speedRotate="0">
+        <img src="./images/mountain_8.png" alt="" class="parallax mountain-8" data-speedX="0.1" data-sppedY="0.2" data-speedZ="0" data-speedRotate="0">
+        <img src="./images/fog_5.png" alt="" class="parallax fog-5" data-speedX="0.16" data-sppedY="0.28" data-speedZ="0" data-speedRotate="0">
+        <img src="./images/mountain_7.png" alt="" class="parallax mountain-7" data-speedX="0.14" data-sppedY="0.275" data-speedZ="0" data-speedRotate="0.011">
+        <div class="text parallax" data-speedX="0.07" data-sppedY="0.122" data-speedZ="0" data-speedRotate="0.155">
+            <h2>
+                Gareth Jones
+            </h2>
+            <h1>
+                Parallax Webpage
+            </h1>
+        </div>
+        <img src="./images/mountain_6.png" alt="" class="parallax mountain-6" data-speedX="0.065" data-sppedY="0.115" data-speedZ="0.15" data-speedRotate="0.14">
+        <img src="./images/fog_4.png" alt="" class="parallax fog-4" data-speedX="0.135" data-sppedY="0.066" data-speedZ="0" data-speedRotate="0.135">
+        <img src="./images/mountain_5.png" alt="" class="parallax mountain-5" data-speedX="0.08" data-sppedY="0.175" data-speedZ="0.13" data-speedRotate="0.148">
+        <img src="./images/fog_3.png" alt="" class="parallax fog-3" data-speedX="0.11" data-sppedY="0.226" data-speedZ="0" data-speedRotate="0.15">
+        <img src="./images/mountain_4.png" alt="" class="parallax mountain-4" data-speedX="0.059" data-sppedY="0.045" data-speedZ="0" data-speedRotate="0.16">
+        <img src="./images/mountain_3.png" alt="" class="parallax mountain-3" data-speedX="0.04" data-sppedY="0.27" data-speedZ="0.13" data-speedRotate="0.175">
+        <img src="./images/fog_2.png" alt="" class="parallax fog-2" data-speedX="0.15" data-sppedY="0.0215" data-speedZ="0" data-speedRotate="0.188">
+        <img src="./images/mountain_2.png" alt="" class="parallax mountain-2" data-speedX="0.0235" data-sppedY="0.188" data-speedZ="0.112" data-speedRotate="0.19">
+        <img src="./images/mountain_1.png" alt="" class="parallax mountain-1" data-speedX="0.027" data-sppedY="0.0115" data-speedZ="0.01" data-speedRotate="0.2">
+        <img src="./images/sun_rays.png" alt="" class="sun-rays">
+        <img src="./images/black_shadow.png" alt="" class="black-shadows">
+        <img src="./images/fog_1.png" alt="" class="parallax fog-1" data-speedX="0.12" data-sppedY="0.11" data-speedZ="0" data-speedRotate="0">
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
